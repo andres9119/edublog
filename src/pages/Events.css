@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+  
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+/* Heading Styles */
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #444;
+}
+  
+h3 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #555;
+}
+  
+/* Event Item Styles */
+/* Events.css */
+
+/* General Styles */
+.events-main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.events-title {
+    font-size: 2.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.no-events {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* List Styles */
+.events-list {
+    list-style: none;
+    padding: 0;
+}
+
+.event-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.event-item:last-child {
+    border-bottom: none;
+}
+
+/* Heading Styles */
+.event-title {
+    font-size: 1.8em;
+    margin: 0;
+    color: #333;
+}
+
+/* Image Styles */
+.event-image {
+    max-width: 100px; 
+    height: auto;     
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+.event-description {
+    margin: 0 0 20px;
+    line-height: 1.8;
+}
+
+/* Date and Location Styles */
+.event-date {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.event-location {
+    font-size: 1.1em;
+    color: #888;
+}
+
+/* Loading and Error Styles */
+.loading {
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.error {
+    font-size: 1.2em;
+    color: #dc3545;
+}
+
+  
+/* Paragraph Styles */
+p {
+    margin: 0 0 20px;
+    line-height: 1.8;
+}
+  
+/* Button Styles */
+button, a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+  
+button:hover, a.button:hover {
+    background-color: #0056b3;
+}

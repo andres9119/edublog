@@ -1,0 +1,52 @@
+/* src/index.css */
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; 
+  padding: 0; 
+  color: #333;
+  background-color: #666363;
+}
+
+/* Header Styles */
+header {
+  background-color: #117df0; 
+  padding: 1rem;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  width: 100%; 
+  box-sizing: border-box; 
+  position: relative; 
+  bottom: 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}

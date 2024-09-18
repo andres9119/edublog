@@ -1,0 +1,94 @@
+/* src/pages/Register.css */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Contenedor del formulario */
+  .register-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .register-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #117df0;
+  }
+  
+  /* Estilos del formulario */
+  .register-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .register-form .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .register-form .form-input:focus {
+    border-color: #117df0;
+    outline: none;
+    box-shadow: 0 0 5px rgba(17, 125, 240, 0.5);
+  }
+  
+  /* Estilos del botón */
+  .btn-submit {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #117df0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0a61c3;
+  }
+  
+  /* Ayuda de registro (iniciar sesión) */
+  .register-help {
+    margin-top: 1rem;
+  }
+  
+  .register-help a {
+    color: #117df0;
+    text-decoration: none;
+  }
+  
+  .register-help a:hover {
+    text-decoration: underline;
+  }
+  
